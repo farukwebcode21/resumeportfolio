@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\About;
 use App\Models\HeroPropertie;
+use App\Models\Social;
 use Illuminate\Contracts\View\View;
 use Illuminate\Http\Request;
 
@@ -36,6 +37,9 @@ class HomeController extends Controller {
     }
     public function heroProperties(Request $request): object {
         return HeroPropertie::get();
+    }
+    public function socialLink(Request $request): object {
+        return Social::get();
     }
 
 }

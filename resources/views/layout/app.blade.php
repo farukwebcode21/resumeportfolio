@@ -20,8 +20,12 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet" />
     <link href="{{ asset('css/style.css') }}" rel="stylesheet" />
+
     <!-- axios import-->
     <script src="{{ asset('js/axios.min.js') }}"></script>
+
+    <!-- custom script-->
+    <script src="{{ asset('js/scripts.js') }}"></script>
 
 </head>
 

@@ -9,5 +9,6 @@ class ContactController extends Controller {
 
     public function contactRequewst(Request $request) {
         return Contact::insert($request->input());
+
     }
 }

@@ -33,6 +33,7 @@ Route::controller(HomeController::class)->group(function () {
 
     Route::get('about', 'about');
     Route::get('hero-properties', 'heroProperties');
+    Route::get('social', 'socialLink');
 });
 
 //  All API Route
