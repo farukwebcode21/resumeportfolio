@@ -32,7 +32,6 @@
                             <!-- Header profile picture-->
                             <div class="d-flex justify-content-center mt-5 mt-xxl-0">
                                 <div class="profile">
-                                    {{-- bg-gradient-primary-to-secondary --}}
                                     <img class="profile-img" id="profileImg" src="${element['img']}" alt="..." />
                                 </div>
                             </div>

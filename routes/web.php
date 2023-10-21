@@ -39,6 +39,7 @@ Route::controller(HomeController::class)->group(function () {
 //  All API Route
 
 Route::controller(ResumeController::class)->group(function () {
+    Route::get('resumeDownload', 'downloadresume');
     Route::get('experiences', 'experiences');
     Route::get('education', 'education');
     Route::get('skill', 'professionalSkill');
